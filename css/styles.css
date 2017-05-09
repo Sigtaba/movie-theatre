@@ -1,0 +1,25 @@
+body {
+  background-image: url(../img/reel.jpg);
+  color: black;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 50px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 50px 50px 50px;
+  font-family: 'BioRhyme', serif;
+}
+
+h2 {
+  padding-top: 200px;
+  font-size: 60px;
+  color: red;
+
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 80px;
+}

@@ -7,15 +7,15 @@ function Ticket(movies, ages, times) {
 }
 
 Ticket.prototype.getPrice = function() {
-    var price = 0;
+    var price = 8;
   if (this.movies === "movie-premium") {
     price += 10;
   }
   if (this.ages === "age-discount") {
-    price += 5;
+    price -= 5;
   }
   if (this.times === "time-discount") {
-    price += 5;
+    price -= 5;
   }
   return price;
 }

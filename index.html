@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Theater</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Ticket Buying Thing!</h1>
+      <form id="formOne">
+        <div class="age">
+          <label for="age">Select your age group</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="age-discount">
+              Under 18
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="age-discount">
+              If you have a student ID
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="no-age-discount">
+              Over 18
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="age-discount">
+              Over 65
+            </label>
+          </div>
+        </div>
+        <div class="time">
+          <label for="time">Select your showtime!</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="time-discount">
+              9am
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="time-discount">
+              12pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="time-discount">
+              3pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="no-time-discount">
+              6pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="no-time-discount">
+              8pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="no-time-discount">
+              10pm
+            </label>
+          </div>
+        </div>
+        <div class="movie">
+          <label for="movie">Select your movie!</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="no-movie-premium">
+              "The Crazy Rocket Kids"
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="no-movie-premium">
+              "Lover's Pond"
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="movie-premium">
+              "Torpedo Field Resistance"
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="no-movie-premium">
+              "Secret Town Clues"
+            </label>
+          </div>
+        </div>
+        <button type="submit" name="button">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>
